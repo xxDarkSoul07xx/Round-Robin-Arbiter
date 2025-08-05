@@ -11,7 +11,7 @@ module round_robin_arbiter #(
   // Keeps track of where arbitration started
   logic [$clog2(requesters)-1:0] starting_index;
 
-  // Allows for shifting rather than wrap around
+  // Simulate wrap around by duplicating the request vector and then a right shift
   logic [2*requesters-1:0] request_twice; 
   
   //Rotated version of the request vector
