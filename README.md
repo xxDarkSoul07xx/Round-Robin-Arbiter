@@ -1,6 +1,6 @@
 # Round-Robin-Arbiter
 
-This is a parametrized round robin arbiter written in SystemVerilog with a testbench.
+This is a parametrized round robin arbiter written in SystemVerilog with a testbench. It was built in EDA Playground and simulated with Icarus Verilog 12.0.
 
 Here are its features:
 1. Fair arbitration with a round-robin scehem
